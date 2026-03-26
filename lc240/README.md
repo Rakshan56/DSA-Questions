@@ -8,7 +8,7 @@ Write an efficient algorithm that searches for a value target in an m x n intege
 
 
 **Test cases**<br>
-<img src="lc240.jpg" alt="description" />
+<img src="lc240.jpg" alt="description" /><br>
 **Input:** matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5 <br>
 **Output:** true <br>
 
