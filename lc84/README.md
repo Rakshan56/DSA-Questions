@@ -1,5 +1,7 @@
 # Leetcode Question 84. Largest Rectangle in Histogram
 
+## **IMP** Topic:the approach of monotonic stack,
+
 **Question Description**<br>
 Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram. 
 
@@ -40,6 +42,8 @@ For each bar of height `h`:
 * For bars still in stack (no NSE found):
   * NSE = `n` (end of array)
   * Calculate area the same way
+
+the approach is to use a stack to keep track of the indices of the bars in the histogram. The stack will be maintained in such a way that the heights of the bars corresponding to the indices in the stack are in increasing order.
 
 **Time Complexity - O(n) AND actually 0(3n) <br>
 Space Complexity - O(n)**
